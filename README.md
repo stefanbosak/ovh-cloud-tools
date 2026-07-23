@@ -28,7 +28,7 @@
 | **Terraform** | [`1.16.0-beta1`](https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta1) |
 | **Terragrunt** | [`v1.1.1`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.1) |
 
-> 🔄 Last updated: 2026-07-23T18:43:46+02:00 · [Build #17](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/30034456708)
+> 🔄 Last updated: 2026-07-23T20:41:48+02:00 · [Build #18](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/30042526904)
 <!-- VERSION_INFO_END -->
 
 ---
