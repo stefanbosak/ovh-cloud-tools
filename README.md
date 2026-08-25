@@ -24,12 +24,12 @@
 | **Kubectl** | [`v1.36.4`](https://github.com/kubernetes/kubernetes/releases/tag/v1.36.4) |
 | **Kustomize** | [`5.8.1`](https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize/v5.8.1) |
 | **OpenTofu** | [`1.12.6`](https://github.com/opentofu/opentofu/releases/tag/v1.12.6) |
-| **OVHcloud CLI** | [`v0.12.0`](https://github.com/ovh/ovhcloud-cli/releases/tag/v0.12.0) |
+| **OVHcloud CLI** | [`v0.13.0`](https://github.com/ovh/ovhcloud-cli/releases/tag/v0.13.0) |
 | **SwarmCLI** | [`v2.0.0-rc2`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v2.0.0-rc2) |
 | **Terraform** | [`1.15.9`](https://github.com/hashicorp/terraform/releases/tag/v1.15.9) |
 | **Terragrunt** | [`v1.1.3`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.3) |
 
-> 🔄 Last updated: 2026-08-21T18:18:54+02:00 · [Build #68](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/32826204913)
+> 🔄 Last updated: 2026-08-25T10:25:42+02:00 · [Build #69](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/32871227208)
 <!-- VERSION_INFO_END -->
 
 ---
