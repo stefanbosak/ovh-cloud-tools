@@ -23,13 +23,13 @@
 | **Kops** | [`v1.37.0-beta.1`](https://github.com/kubernetes/kops/releases/tag/v1.37.0-beta.1) |
 | **Kubectl** | [`v1.37.0`](https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0) |
 | **Kustomize** | [`5.8.1`](https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize/v5.8.1) |
-| **OpenTofu** | [`1.13.0-beta1`](https://github.com/opentofu/opentofu/releases/tag/v1.13.0-beta1) |
+| **OpenTofu** | [`1.12.6`](https://github.com/opentofu/opentofu/releases/tag/v1.12.6) |
 | **OVHcloud CLI** | [`v0.14.0`](https://github.com/ovh/ovhcloud-cli/releases/tag/v0.14.0) |
 | **SwarmCLI** | [`v2.0.0-rc4`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v2.0.0-rc4) |
-| **Terraform** | [`1.17.0-alpha20260827`](https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827) |
+| **Terraform** | [`1.16.1`](https://github.com/hashicorp/terraform/releases/tag/v1.16.1) |
 | **Terragrunt** | [`v1.1.4`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.4) |
 
-> 🔄 Last updated: 2026-09-02T08:44:24+02:00 · [Build #82](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/33609062530)
+> 🔄 Last updated: 2026-09-02T10:33:17+02:00 · [Build #83](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/33654790904)
 <!-- VERSION_INFO_END -->
 
 ---
