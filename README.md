@@ -16,7 +16,7 @@
 <!-- VERSION_INFO_START -->
 | Component | Version |
 |-----------|---------|
-| **Ansible** | [`v2.21.4rc1`](https://github.com/ansible/ansible/releases/tag/v2.21.4rc1) |
+| **Ansible** | [`v2.21.4`](https://github.com/ansible/ansible/releases/tag/v2.21.4) |
 | **cert-manager CLI** | [`v2.5.0`](https://github.com/cert-manager/cmctl/releases/tag/v2.5.0) |
 | **Helm** | [`v4.3.0-rc.1`](https://github.com/helm/helm/releases/tag/v4.3.0-rc.1) |
 | **K9s** | [`v0.51.0`](https://github.com/derailed/k9s/releases/tag/v0.51.0) |
@@ -29,7 +29,7 @@
 | **Terraform** | [`1.16.1`](https://github.com/hashicorp/terraform/releases/tag/v1.16.1) |
 | **Terragrunt** | [`v1.1.4`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.4) |
 
-> 🔄 Last updated: 2026-09-08T12:26:25+02:00 · [Build #98](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/34226721481)
+> 🔄 Last updated: 2026-09-08T14:36:39+02:00 · [Build #99](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/34263114536)
 <!-- VERSION_INFO_END -->
 
 ---
