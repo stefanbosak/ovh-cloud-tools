@@ -27,9 +27,9 @@
 | **OVHcloud CLI** | [`v0.14.0`](https://github.com/ovh/ovhcloud-cli/releases/tag/v0.14.0) |
 | **SwarmCLI** | [`v2.1.1`](https://github.com/Eldara-Tech/swarmcli/releases/tag/v2.1.1) |
 | **Terraform** | [`1.17.0-beta1`](https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1) |
-| **Terragrunt** | [`v1.1.4`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.4) |
+| **Terragrunt** | [`v1.1.5`](https://github.com/gruntwork-io/terragrunt/releases/tag/v1.1.5) |
 
-> 🔄 Last updated: 2026-09-14T20:29:20+02:00 · [Build #116](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/34892371302)
+> 🔄 Last updated: 2026-09-14T22:25:12+02:00 · [Build #117](https://github.com/stefanbosak/ovh-cloud-tools/actions/runs/34903662447)
 <!-- VERSION_INFO_END -->
 
 ---
