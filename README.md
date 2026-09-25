@@ -21,6 +21,7 @@
 | **Helm** | [`v4.3.0`](https://github.com/helm/helm/releases/tag/v4.3.0) |
 | **K9s** | [`v0.51.0`](https://github.com/derailed/k9s/releases/tag/v0.51.0) |
 | **Kops** | [`v1.37.0-beta.1`](https://github.com/kubernetes/kops/releases/tag/v1.37.0-beta.1) |
+| **Kpt** | [`v1.0.1`](https://github.com/kptdev/kpt/releases/tag/v1.0.1) |
 | **Kubectl** | [`v1.37.1`](https://github.com/kubernetes/kubernetes/releases/tag/v1.37.1) |
 | **Kustomize** | [`5.8.1`](https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize/v5.8.1) |
 | **OpenTofu** | [`1.12.6`](https://github.com/opentofu/opentofu/releases/tag/v1.12.6) |
@@ -49,6 +50,7 @@ This repository provides a fully automated preparation of <span style="color: #0
 | [CNPG CLI](https://github.com/cloudnative-pg/cloudnative-pg/) | <span style="color: #d73a49;">CloudNativePG CLI</span> |
 | [HELM CLI](https://helm.sh/docs/helm/) | <span style="color: #0969da;">Kubernetes package manager</span> |
 | [kops CLI](https://kops.sigs.k8s.io/) | <span style="color: #0969da;">Kubernetes cluster management</span> |
+| [kpt CLI](https://github.com/kptdev/kpt) | <span style="color: #0969da;">Kubernetes package management (WYSIWYG configuration)</span> |
 | [kubectl CLI](https://kubernetes.io/docs/reference/kubectl/) | <span style="color: #0969da;">Kubernetes command-line tool</span> |
 | [Kustomize CLI](https://kubectl.docs.kubernetes.io/references/kustomize/) | <span style="color: #0969da;">Kubernetes native configuration management</span> |
 | [k9s CLI](https://k9scli.io/) | <span style="color: #0969da;">Terminal UI for Kubernetes</span> |

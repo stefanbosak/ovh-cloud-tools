@@ -28,6 +28,9 @@ ARG K9S_CLI_VERSION=v0.51.0
 # kops version
 ARG KOPS_CLI_VERSION=v1.36.0-beta.1
 
+# kpt version
+ARG KPT_CLI_VERSION=v1.0.1
+
 # kubectl version
 ARG KUBECTL_CLI_VERSION=v1.36.2
 
@@ -210,6 +213,29 @@ ADD "https://github.com/kubernetes/kops/releases/download/${KOPS_CLI_VERSION}/ko
 
 # install kubectl
 RUN mkdir -p "/usr/local/bin/" && install -v -o root -g root -m 0755 "${WORKSPACE_ROOT_DIR}/kops-${TARGETOS}-${TARGETARCH}" "/usr/local/bin/kops"
+
+
+# container as builder for preparing OVH cloud tools
+FROM ovh-tools-builder AS ovh-tools-kpt-builder
+
+LABEL stage="ovh-tools-kpt-builder" \
+      description="Debian-based container builder for preparing OVH cloud tool kpt CLI" \
+      org.opencontainers.image.description="Debian-based container builder for preparing OVH cloud tool kpt CLI" \
+      org.opencontainers.image.url=https://github.com/stefanbosak/ovh-cloud-tools \
+      org.opencontainers.image.source=https://github.com/stefanbosak/ovh-cloud-tools
+
+ARG TARGETOS
+ARG TARGETARCH
+ARG KPT_CLI_VERSION
+
+ARG WORKSPACE_ROOT_DIR
+WORKDIR "${WORKSPACE_ROOT_DIR}"
+
+# download kpt CLI binary file (https://github.com/kptdev/kpt)
+ADD "https://github.com/kptdev/kpt/releases/download/${KPT_CLI_VERSION}/kpt_${TARGETOS}_${TARGETARCH}" "${WORKSPACE_ROOT_DIR}/"
+
+# install kpt
+RUN mkdir -p "/usr/local/bin/" && install -v -o root -g root -m 0755 "${WORKSPACE_ROOT_DIR}/kpt_${TARGETOS}_${TARGETARCH}" "/usr/local/bin/kpt"
 
 
 # container as builder for preparing OVH cloud tools
@@ -411,6 +437,7 @@ COPY --from=ovh-tools-cnpg-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=ovh-tools-helm-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=ovh-tools-k9s-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=ovh-tools-kops-builder "/usr/local/bin/" "/usr/local/bin/"
+COPY --from=ovh-tools-kpt-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=ovh-tools-kubectl-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=ovh-tools-kustomize-builder "/usr/local/bin/" "/usr/local/bin/"
 COPY --from=ovh-tools-opentofu-builder "/usr/local/bin/" "/usr/local/bin/"
